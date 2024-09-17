@@ -6,3 +6,5 @@ tags: [other]
 ---
 
 Welcome to my blog!
+
+Srce moje, moja zena :heart:!
