@@ -1,0 +1,53 @@
+baseURL = "http://localhost:8000/"
+languageCode = "en-us"
+title = "krümel.xyz"
+#theme="archie"
+copyright = "© Krümel"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+enableEmoji = true
+
+paginate=5 # articles per page
+
+[params]
+	mode="light"
+	useCDN=false
+	#subtitle = "Welcome to my blog, you will find mostly rambling about web application security and some other security topics!"
+	dateFormat = "2006 Jan. 02."
+
+# Social Tags
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/kruemelxyz/"
+
+[[params.social]]
+name = "Mail"
+icon = "mail"
+url = "mailto:kruemel.xyz@proton.me"
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All articles"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
