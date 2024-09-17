@@ -1,4 +1,4 @@
-baseURL = "https://kruemelxyz.github.io/kruemelxyz-blog-public/"
+baseURL = "https://kruemelxyz.github.io/kruemelxyz-blog-source/"
 languageCode = "en-us"
 title = "krümel.xyz"
 #theme="archie"
