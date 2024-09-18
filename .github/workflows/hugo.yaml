@@ -62,6 +62,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Create CNAME file
+        run: |
+          echo "kruemel.xyz" > ./public/CNAME  # Replace with your custom domain name
 
   # Deployment job
   deploy:
