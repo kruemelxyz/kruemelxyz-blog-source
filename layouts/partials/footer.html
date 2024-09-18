@@ -2,13 +2,15 @@
   <div style="display:flex">
     {{- range $index, $key := .Site.Params.Social -}}
     <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}" target="_blank" rel="noopener noreferrer"><i data-feather="{{ $key.icon }}"></i></a>
-    <a class="border"></a>
+    <span class="border"></span>
     {{- end -}}
   </div>
   <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a
-      href="https://github.com/athul/archie" target="_blank" rel="noopener noreferrer">Archie Theme (Customized)</a> | 
-      Built with <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>
+    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }}<span class="mobile-line-break"> | </span>{{ end }}
+    <span class="mobile-line-break">
+    <a href="https://github.com/athul/archie" target="_blank" rel="noopener noreferrer">Archie Theme (Customized)</a> | 
+    Built with <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>
+    </span>
   </div>
 </footer>
 {{ if not hugo.IsServer }}

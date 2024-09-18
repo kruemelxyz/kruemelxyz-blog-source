@@ -199,6 +199,17 @@ footer {
   padding: var(--footer-padding);
 }
 
+.mobile-line-break {
+  display: inline;
+}
+
+/* For larger screens, hide further information in footer */
+@media (max-width: 768px) {
+  .mobile-line-break {
+      display: none;
+  }
+}
+
 /* Common */
 .title h1 {
   margin-bottom: 0;
@@ -221,7 +232,6 @@ time {
   animation: blink 1s step-end infinite;
   vertical-align: baseline; /* Align it relative to the baseline */
   transform: translateY(0.25em); /* Move cursor slightly down */
-  
 }
 
 @keyframes blink {
