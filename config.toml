@@ -15,7 +15,7 @@ paginate=5 # articles per page
 [params]
 	mode="light"
 	useCDN=false
-	#subtitle = "Welcome to my blog, you will find mostly rambling about web application security and some other security topics!"
+	# subtitle = "Welcome! Another blog rambling mostly about web application security."
 	dateFormat = "2006 Jan. 02."
 
 # Social Tags
@@ -38,7 +38,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All articles"
+name = "All posts"
 url = "/posts"
 weight = 2
 

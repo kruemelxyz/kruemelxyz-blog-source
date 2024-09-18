@@ -6,33 +6,16 @@
 			{{ partial "head.html" . }}
 			
 			<main class="list">
-				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
-					{{- end -}}
+				
+				<div>
+					<h1>Welcome!</h1>
+					It awaits you another blog rambling about web application security and other it-security related topics.<br>
+					For now you can expect mostly posts about chasing the full time bug bounty hunter dream!
 				</div>
-				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
-				<section class="list-item">
-					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<span class="postinfo">
-					<time>{{ dateFormat .Site.Params.dateFormat .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time> 					
-					{{ if .Params.tags }}
-					<i>
-						Tags:
-						{{ range $index, $tag := .Params.tags }}
-						{{ if $index }}, {{ end }}
-						<a href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag }}</a>
-						{{ end }}
-					</i>
-					{{ end }}
-				</span>
-					<br>{{ template "partials/pagedescription.html" . }}
-					<!--a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a-->
-				</section>
-				{{ end }}
-				{{ template "partials/paginator.html" . }}
+				<br>
+				<a href="{{ "/posts" | absURL }}">All posts</a><br>
+				<a href="{{ "/about" | absURL }}">About</a><br>
+				<a href="{{ "/tags" | absURL }}">Tags</a><br>
 			</main>
 			{{ partial "footer.html" . }}
 		</div>
