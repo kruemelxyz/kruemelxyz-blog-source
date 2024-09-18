@@ -13,7 +13,7 @@ enableEmoji = true
 paginate=5 # articles per page
 
 [params]
-	mode="light"
+	mode="toggle"
 	useCDN=false
 	# subtitle = "Welcome! Another blog rambling mostly about web application security."
 	dateFormat = "2006 Jan. 02."

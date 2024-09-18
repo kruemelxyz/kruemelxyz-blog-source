@@ -3,25 +3,15 @@ body {
   background-color: #202124;
 }
 
-::-moz-selection {
-  background: blue;
-  color: #fff;
-  text-shadow: none;
-}
-
 ::selection {
-  background: red;
+  background: dodgerblue;
   color: #fff;
   text-shadow: none;
 }
 
-hr {
-  border-top: 3px dotted blue;
-}
+
 code {
-  background-color: lightblue;
   color: black;
-  text-decoration: bold;
   padding: 0.1em 0.2em;
 }
 pre {
@@ -31,7 +21,7 @@ pre {
   padding: 1em;
 }
 blockquote {
-  border-color: blue;
+  border-color: dodgerblue;
 }
 
 h1,
@@ -68,8 +58,12 @@ h6::before {
 }
 
 .toc {
-  background-color: #272822;
+  background-color: #202124;
   color: white;
+}
+
+.blinking-cursor {
+  background-color: #ffffff;
 }
 
 a {
@@ -78,7 +72,7 @@ a {
 }
 a:hover {
   background-color: var(--darkMaincolor);
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .site-description a {
@@ -93,7 +87,7 @@ a:hover {
 }
 .tags a:hover {
   background-color: var(--darkMaincolor);
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .site-title a {
@@ -114,7 +108,7 @@ a:hover {
 }
 .draft-label {
   color: var(--darkMaincolor);
-  background-color: blue;
+  background-color: dodgerblue;
 }
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
