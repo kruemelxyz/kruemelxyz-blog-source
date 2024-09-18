@@ -9,6 +9,8 @@ pygmentscodefencesguesssyntax = true
 
 enableEmoji = true
 
+googleAnalytics = "G-5D76ZZD8WC"
+
 [params]
 	mode="toggle"
 	useCDN=false
