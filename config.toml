@@ -1,7 +1,6 @@
 baseURL = "https://kruemel.xyz/"
 languageCode = "en-us"
 title = "kruemel.xyz"
-#theme="archie"
 copyright = "© Krümel"
 
 pygmentsstyle = "monokai"
@@ -10,16 +9,12 @@ pygmentscodefencesguesssyntax = true
 
 enableEmoji = true
 
-paginate=5 # articles per page
-
 [params]
 	mode="toggle"
 	useCDN=false
-	# subtitle = "Welcome! Another blog rambling mostly about web application security."
 	dateFormat = "2006 Jan. 02."
 
 # Social Tags
-
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
@@ -31,7 +26,6 @@ icon = "mail"
 url = "mailto:kruemel.xyz@proton.me"
 
 # Main menu Items
-
 [[menu.main]]
 name = "Home"
 url = "/"
