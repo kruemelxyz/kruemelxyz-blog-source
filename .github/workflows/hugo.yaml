@@ -46,8 +46,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -62,9 +60,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - name: Create CNAME file
-        run: |
-          echo "kruemel.xyz" > ./public/CNAME  # Replace with your custom domain name
 
   # Deployment job
   deploy:
