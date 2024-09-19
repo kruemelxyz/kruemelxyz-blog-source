@@ -1,3 +1,4 @@
 .hugo_build.lock
 public/*
 !public/.gitkeep
+template-weekly-bb-report.md

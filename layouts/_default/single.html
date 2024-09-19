@@ -5,7 +5,7 @@
 			<h1 class="title">{{ .Title }}</h1>			
 			<div>
 				{{ if ne .File.BaseFileName "about" }}
-				<span class="meta">Posted on {{ dateFormat .Site.Params.dateFormat .Date }}</span>
+				<span class="meta-single">Posted on {{ dateFormat .Site.Params.dateFormat .Date }}</span>
 				{{ end }}
 				{{ if .Params.tags }}
 				<i>					

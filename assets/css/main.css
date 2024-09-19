@@ -28,6 +28,7 @@ body{
 p {
   font-family: 'Fira Sans', sans-serif;
   line-height: 1.5;
+  margin-top: 1.75em
 }
 
 hr {
@@ -142,18 +143,18 @@ header {
 }
 
 header .main {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
 }
 
 h1 {
   font-size: 1.5rem;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 h1::before { color: var(--maincolor); content: '# '; }
@@ -163,9 +164,17 @@ h4::before { color: var(--maincolor); content: '#### '; }
 h5::before { color: var(--maincolor); content: '##### '; }
 h6::before { color: var(--maincolor); content: '###### '; }
 
-.meta {
+.meta-single {
   color: #999;
-  letter-spacing: -0.5px;
+  margin-right: 0.5em;
+  letter-spacing: -0.35px;
+}
+
+.meta-list {
+  color: #999;
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+  letter-spacing: -0.35px;
 }
 
 .toc {
@@ -248,7 +257,7 @@ time {
 
 /* Posts */
 article .title {
-  margin-bottom: 1em;
+  margin-bottom: 0.65em;
 }
 
 

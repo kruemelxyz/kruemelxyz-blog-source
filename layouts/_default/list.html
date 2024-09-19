@@ -9,7 +9,7 @@
 	{{- range .Data.Pages -}}
 		{{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
 		<li class="post">
-			<span class="meta">{{ dateFormat .Site.Params.dateFormat .Date }}</span> <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+			<span class="meta-list">{{ dateFormat .Site.Params.dateFormat .Date }}</span> <a href="{{ .RelPermalink }}">{{.Title}}</a> 
 			{{ if .Params.tags }}
 			<i>
 				- Tags:
