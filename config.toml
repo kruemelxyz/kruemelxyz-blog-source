@@ -15,6 +15,7 @@ googleAnalytics = "G-5D76ZZD8WC"
 	mode="toggle"
 	useCDN=false
 	dateFormat = "2006 Jan. 02."
+	favicon = "favicon.png"
 
 # Social Tags
 [[params.social]]
