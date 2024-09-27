@@ -9,9 +9,8 @@
 				{{ end }}
 				{{ if .Params.tags }}
 				<i>					
-					Tags:
-					{{ range $index, $tag := .Params.tags }}
-					{{ if $index }}, {{ end }}
+					Tags:{{ range $index, $tag := .Params.tags }}
+					{{ if $index }} , {{ end }}
 					<a href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag }}</a>
 					{{ end }}
 				</i>
