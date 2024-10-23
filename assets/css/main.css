@@ -210,17 +210,6 @@ footer {
   padding: var(--footer-padding);
 }
 
-.mobile-line-break {
-  display: inline;
-}
-
-/* For larger screens, hide further information in footer */
-@media (max-width: 768px) {
-  .mobile-line-break {
-      display: none;
-  }
-}
-
 /* Common */
 .title h1 {
   margin-bottom: 0;
