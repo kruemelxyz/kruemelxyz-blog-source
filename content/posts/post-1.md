@@ -32,7 +32,7 @@ As this goal is pretty far fetched, I will not define it in more detail. But I'l
 
 I could identify myself with this a lot, that means my first goal is to simply find a bug/bugs worth 1k in rewards. I will try to blend out everything else, not thinking about complex bug classes, scaling, automation or anything else.
 
-As I can't put a time frame on that it's not a real SMART goal, but the following goals are SMART and will lead me to achieve my first 1k in rewards!
+As I can't put a time frame on that it's not a real SMART goal, but the following goals are SMART and will lead me to achieve my first 1k in rewards and enable me to document it properly!
 
 ### SMART goals - CW 5
 - [ ] 35 hours focused work on this project (blog and hunting)
