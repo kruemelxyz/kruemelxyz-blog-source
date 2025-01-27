@@ -5,7 +5,7 @@ date = "2024-09-17"
 author = "Krümel"
 +++
 
-About me!
+Nothing to see here, if you have questions contact me on X or via mail!
 
 
 

@@ -1,39 +1,40 @@
 ---
-title: "CW 43 - 500h BB challenge weekly report"
-date: 2024-09-19
-description: "CW 43 - 500h BB challenge weekly report"
-tags: [500h-bb-challenge-report, bugbounty]
+title: "Kruemels Bug Bounty Odyssey - The Beginning"
+date: 2025-01-26
+description: "Kruemels Bug Bounty Odyssey - The Beginning"
+tags: ["bug-bounty-odyssey"]
 ---
 
-## Challenge introduction
+## Introduction
+This blog post series: **Kruemels Bug Bounty Odyssey** will be about my journey, becoming a (decent) bug bounty hunter.
 
+My main reasons to share this journey publicly:
+* Keep myself accountable - set goals, commit to them and execute, without excuses!
+* Share knowledge with the community - without free resources most of us would not be where we are now!
+* Provoke feedback from the community - if I publish something it's to my best knowledge, if you know better, please let me know!
 
+## Main goal
 
-Unordered list:
-* One
-* Two
-* three
+The main goal of this journey is simple: **Get 100k in rewards**  
 
-## Summary
+... to join the 100k club known from the likes of https://x.com/NahamSec and https://x.com/Rhynorater.
 
-🪲 Bugs reported: 0 (0 High, 0 Medium, 0 Low)  
-🏢 Programs: 0  
-💵 Paid: 0  
-💔 Duplicate: 0  
-🛑 OOS: 0  
-ℹ️ Informational: 0  
+As this goal is pretty far fetched, I will not define it in more detail. But I'll set SMART goals for each quarter of the year and on a weekly base (weekly goals will be documented in this series) to adjust to the given personal circumstances.
 
-⏱️ Hours - 0/500:
-0 Studying  
-0 Hunting  
-0 Writing blog  
+**100k in rewards is not a sprint, it's a marathon and I will achieve it step by step in a sustainable way!**
 
-## Bugs
+## Weekly goal - CW 5
+**NahamSec** mentioned in one of his videos that the first two big steps on someones bug bounty journey are getting 1k in rewards and then 10k in rewards:
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+1k - Proof yourself you can find bugs  
+10k - Proof yourself you can repeatedly find bugs
 
-## Hours
+I could identify myself with this a lot, that means my first goal is to simply find a bug/bugs worth 1k in rewards. I will try to blend out everything else, not thinking about complex bug classes, scaling, automation or anything else.
 
-### Hunting
-
-### Studying
+**CW 5 SMART goals:**
+- [ ] 35 hours focused work on this project (blog and hunting)
+- [ ] Finalize blog setup (Domain and deployment pipeline)
+- [ ] Define and execute a simple approach to find the first bug(s)
+- [ ] Publish second blog post    
+- [ ] Seamless document working times
+- [ ] Write first X post
