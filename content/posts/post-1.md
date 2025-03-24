@@ -93,7 +93,7 @@ As already mentioned, I had a hard time sticking to my two chosen bug classes an
 - https://github.com/trufflesecurity/trufflehog
 
 ## Generic learnings
-- Dont get distracted so easily and stick to what I'm working on
-- If I see something potential useful, bookmark it and analyze it later on (I got lost 2 days setting up and trying out tools I somewhen will need in the future, but not now)
+- Don't get distracted so easily (also from other bug bounty related topics) and stick to what I'm working on
+- If I see something potential useful, bookmark it and analyze it later on (I got lost 2 days setting up and trying out tools I will somewhen need in the future, but not now)
 - Only impactful findings are rewarded, sometimes not even those (subjective opinion and a little bit of frustration ^^)
 - Writing a blog takes time 
