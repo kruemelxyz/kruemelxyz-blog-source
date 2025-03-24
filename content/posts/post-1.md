@@ -26,6 +26,18 @@ For the beginning I chose two public targets, one with a very broad scope and on
 
 For the beginning I will test for two bug classes only, "Reflected and stored XSS" and "Authorization issues". I know about other bug classes too, but I want to go first really deep into only a few topics, create my methodology for it and then move on to the next one. As you will read soon, that's not that easy when there is so much to learn about.
 
+### Breakdown working hours
+Overall: 36h 45min.  
+
+Setup - Hunting: 13h  
+Learning - XSS: 4h  
+Hunting - AuthZ: 4h  
+Blog - Writing: 3h 30min.  
+Learning - AuthZ: 2h 30min.  
+Learning - Recon: 2h  
+Setup - Administration: 2h  
+Hunting - XSS: 1h 30min.
+
 ### XSS
 To warm up I skimmed through Zseanos bug bounty guide and did most of the XSS Portswigger Academy Labs. Then I started to analyze the input/output sanitization/encoding of the target. The target is mostly based on API calls returning JSON and a React front end, which handles the output encoding. I did not find any issues for now, but tested only a very small subset of the parameters to understand the application behaviour. I alse recognized I will have to take some time to learn much more about payload obfuscation, this will help not only for finding XSS issues but will be helpful testing for many other bugclasses.
 
@@ -80,20 +92,8 @@ As already mentioned, I had a hard time sticking to my two chosen bug classes an
 - https://github.com/xnl-h4ck3r/xnLinkFinder
 - https://github.com/trufflesecurity/trufflehog
 
-## Learnings
+## Generic learnings
 - Dont get distracted so easily and stick to what I'm working on
 - If I see something potential useful, bookmark it and analyze it later on (I got lost 2 days setting up and trying out tools I somewhen will need in the future, but not now)
 - Only impactful findings are rewarded, sometimes not even those (subjective opinion and a little bit of frustration ^^)
 - Writing a blog takes time 
-
-## Breakdown working hours
-Overall: 36h 45min.  
-
-Setup - Hunting: 13h  
-Learning - XSS: 4h  
-Hunting - AuthZ: 4h  
-Blog - Writing: 3h 30min.  
-Learning - AuthZ: 2h 30min.  
-Learning - Recon: 2h  
-Setup - Administration: 2h  
-Hunting - XSS: 1h 30min.
